@@ -1,0 +1,13 @@
+name = "GregTech-TimeEcho"
+author = "nvaz"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a9a7d419e01559789a48e6ded1ef39d2faf153bec87ae4dabe9368e5d09b404c"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

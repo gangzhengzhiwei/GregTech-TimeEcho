@@ -1,0 +1,13 @@
+name = "Greate"
+filename = "greate-0.0.75.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8wDcQuht/versions/aZjKnDVL/greate-0.0.75.jar"
+hash-format = "sha512"
+hash = "a3bb885a6d900cf7e1afac4a6e9a0fc87ed8901343e7ab3f24ab05c2135aa8881b2c76e62dae3294ce927f3e1260a625533ef81ac3d47e659a14ff07ab8d1576"
+
+[update]
+[update.modrinth]
+mod-id = "8wDcQuht"
+version = "aZjKnDVL"
