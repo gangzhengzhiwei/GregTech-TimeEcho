@@ -9,6 +9,18 @@ file = "README.md"
 hash = "a9abb8228d5deb5626f70191cf3cad9186ec8016a418a38fa2a059a5eed8a0fd"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
+hash = "1193726dc580b1656e7a395157225eb45b67deb40886e29613d338a362a3260b"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "ed7875116d2c86b1e8c58e9a714c1566043be46ff1c927f8ab31b2a806c50acc"
+
+[[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
 hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
 
@@ -61,6 +73,10 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge-2001.3.7.jar"
 hash = "63515959a2413ad20320f04cdc780148fed7ce97dc7ec271e2cf03f9c88d2323"
+
+[[files]]
+file = "mods/ftb-filter-system-forge-20.0.1.jar"
+hash = "fcb7b312a010986a868a6645e4e395b2635383a2387297c7c134aa4250959e24"
 
 [[files]]
 file = "mods/ftb-library-forge-2001.2.12.jar"

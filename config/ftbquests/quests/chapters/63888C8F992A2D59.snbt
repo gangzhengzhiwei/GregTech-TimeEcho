@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63888C8F992A2D59"
+	group: ""
+	id: "63888C8F992A2D59"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			id: "035B5156551B5BCE"
+			size: 2.0d
+			tasks: [{
+				id: "4B713A378FC383C6"
+				type: "checkmark"
+			}]
+			title: "格雷：时空回想"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["035B5156551B5BCE"]
+			id: "437496DDAD21E8A5"
+			tasks: [{
+				count: 64L
+				id: "0E0BB9E4225302A4"
+				item: { Count: 64, id: "minecraft:clay_ball" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["437496DDAD21E8A5"]
+			id: "1742A5AF898F0159"
+			tasks: [{
+				id: "383F65E5A8311DBB"
+				item: "charcoal_pit:clay_pot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1742A5AF898F0159"]
+			id: "19BF4DFAA7825E34"
+			tasks: [{
+				id: "3DB32FE400C41BE5"
+				item: "charcoal_pit:ceramic_pot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["035B5156551B5BCE"]
+			id: "17B45911351AD088"
+			tasks: [{
+				id: "396E655BD8BCCFD0"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	title: "开荒"
+}
