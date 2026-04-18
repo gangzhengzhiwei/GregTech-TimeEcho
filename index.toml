@@ -13,6 +13,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/48B4622B8F6EA10C.snbt"
+hash = "fecf5589e2deabb9a3b55de7e45d244ef4a6884737071b56758cc89dc9e825d9"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
 hash = "1193726dc580b1656e7a395157225eb45b67deb40886e29613d338a362a3260b"
 
@@ -31,6 +35,10 @@ hash = "77ae473f2f3e2cf1bd566ea4fca4d9eef5643ce6d9ac59021b487dc73ddfa066"
 [[files]]
 file = "kubejs/server_scripts/ban.js"
 hash = "797626fe713ae323f08d636c1302b0235d7191465750142dcd92e63659d3ac52"
+
+[[files]]
+file = "kubejs/server_scripts/ore.js"
+hash = "1520f4068c1a4ecf6777ffa2be610f82fc5b3c50d58e3a06d4bb3d7921d91bb4"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
