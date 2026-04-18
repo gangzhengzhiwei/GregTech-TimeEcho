@@ -3,6 +3,24 @@
 	default_quest_shape: ""
 	filename: "48B4622B8F6EA10C"
 	group: ""
+	icon: {
+		Count: 1
+		id: "gtceu:ultimet_wrench"
+		tag: {
+			Damage: 0
+			DisallowContainerItem: 0b
+			GT.Behaviours: {
+				Mode: 2b
+			}
+			GT.Tool: {
+				DefaultEnchantments: [ ]
+				HarvestLevel: 4
+				MaxDamage: 2047
+				ToolSpeed: 14.0f
+			}
+			HideFlags: 2
+		}
+	}
 	id: "48B4622B8F6EA10C"
 	images: [{
 		height: 10.0d
@@ -22,6 +40,7 @@
 				"而标记电压的单位“V”可理解为现实中的电压单位“伏特”，亦可以理解为一个架空的单位。注意，这里的电压不具有现实中电压所具有的一些性质，比如诸多并行的机器输出的总电压不一定是它们的电压之和。另外，由于GT中的电流单位使用的记号“A”也对应现实中的“安培”，所以其实，EU算某种意义上的电功率。"
 				"也就是说，V/A=EU/t。"
 			]
+			icon: "gtceu:uv_transformer_16a"
 			id: "491894EF98705ABD"
 			shape: "hexagon"
 			subtitle: "重中之重！"
@@ -40,6 +59,7 @@
 				"同一电压等级的充电箱和电池箱的最大输入（输出）电流也有不同。这取决于合成这些充电箱或电池箱时所使用的导线尺寸。"
 				"所有电压等级的能源仓的最大输入电流均为2A，因此允许使用1A的电流来输入。可以通过安装多个能源仓的方式来提升该多方块机器的最大输入电流大小。"
 			]
+			icon: "gtceu:lv_transformer_1a"
 			id: "5446D24E8A867078"
 			subtitle: "警钟长鸣！"
 			tasks: [{
@@ -56,6 +76,7 @@
 				"输入电压若超出机器承受范围，则会导致机器爆炸损毁，同时对周围的地形产生破坏。电压等级越高的机器，产生的爆炸威力将越巨大！"
 				"输入电流若超出机器承受范围，则不会有任何问题，只会使能量传输的功率提升。因此，只要保证输入电压在所需的范围内即可。"
 			]
+			icon: "gtceu:mv_transformer_1a"
 			id: "357ED445485C676D"
 			subtitle: "警钟长鸣！"
 			tasks: [{
@@ -76,6 +97,7 @@
 				"若合成的电压等级等于当前机器的电压等级，则机器可以正常执行该合成。"
 				"若合成的电压等级低于当前机器的电压等级，则机器会超频执行该合成。"
 			]
+			icon: "gtceu:lv_bender"
 			id: "281BC53AE2A45FE0"
 			subtitle: "贯穿整个流程"
 			tasks: [{
@@ -93,6 +115,7 @@
 				"对于消耗流体来发电的机器（如燃气轮机）而言，当该机器的电压等级比合成的电压等级高1级，则实际的发电功率将会变为原来的4倍（即电压等级提升1级），单次运行消耗的流体量将会变为原来的4倍，耗时不变。这意味着超频不影响总产能。"
 				"需要注意的是，超频并不会影响机器自身的最大承受电压。合成可以超频多次，这意味着如果机器的电压等级比合成的电压等级高出数个级别，那么超频的倍数可以叠加。"
 			]
+			icon: "gtceu:electric_blast_furnace"
 			id: "62652D299C292DE1"
 			subtitle: "节约时间好方法"
 			tasks: [{
@@ -108,6 +131,7 @@
 				"线损是一个用于衡量导线/线缆传输电能时造成的能量损耗的物理量。除了红石合金线和超导线没有线损以外，不同的导线/线缆都拥有不同的线损，当鼠标悬停于其上方时，会在物品名称下方显示其线损。"
 				"能量的损耗是按照能量流过的长度来计算的。当能量传输经过1m的导线/线缆时，其电压值将会减少该段导线/线缆的线损值，而电流值保持不变。"
 			]
+			icon: "gtceu:hssg_quadruple_wire"
 			id: "6A57594A24C0620A"
 			subtitle: "别浪费发出来的电哦"
 			tasks: [{
@@ -123,6 +147,7 @@
 				"锅炉被干烧到373K及以上后再通水时，会发生爆炸。"
 				"单方块锅炉内部存储的蒸汽满后，会自动排出一定量的蒸汽 。"
 			]
+			icon: "gtceu:lp_steam_solid_boiler"
 			id: "16B60596A3F5A9ED"
 			subtitle: "这玩意炸了可不是闹着玩的"
 			tasks: [{
@@ -138,6 +163,7 @@
 				"GregTech的矿石和油泉不同于原版，不再像原版那样零散生成，而是会以矿脉的形式生成。"
 				"有时候你会在地面上看见一些含有矿物的地表岩石，如果你有Xaero的小地图这个模组的话，右键点击这些地表岩石就会自动为你的地图添加矿脉中心的路径点。"
 			]
+			icon: "gtceu:copper_ore"
 			id: "5F36570A4BEE2084"
 			subtitle: "不要傻傻的还和原版一样挖矿哦"
 			tasks: [{
@@ -160,6 +186,24 @@
 				"软锤：用于开关机器"
 				"斧/链锯：砍倒一整棵树！"
 			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
 			id: "6E73A4623BA278BB"
 			subtitle: "很重要"
 			tasks: [{

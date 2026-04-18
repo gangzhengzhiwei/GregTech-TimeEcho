@@ -14,11 +14,11 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/48B4622B8F6EA10C.snbt"
-hash = "fecf5589e2deabb9a3b55de7e45d244ef4a6884737071b56758cc89dc9e825d9"
+hash = "41bec9202c00189b3f193d6c946d0bf1c1688959abfc66bc6db24bc18dbffa97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "1193726dc580b1656e7a395157225eb45b67deb40886e29613d338a362a3260b"
+hash = "2c2b063da04a48c5dc5a7bd07430dd76dcf4c5528f25485738356060605d1223"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -29,18 +29,6 @@ file = "config/xaero/minimap/profiles/default.cfg"
 hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
 
 [[files]]
-file = "ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
-
-[[files]]
-file = "ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "260b69f774bc2490e5273171b953ceef48b15e26eb2458006d8a946937503a66"
-
-[[files]]
-file = "ftbquests/quests/data.snbt"
-hash = "ed7875116d2c86b1e8c58e9a714c1566043be46ff1c927f8ab31b2a806c50acc"
-
-[[files]]
 file = "kubejs/client_scripts/ban.js"
 hash = "77ae473f2f3e2cf1bd566ea4fca4d9eef5643ce6d9ac59021b487dc73ddfa066"
 
@@ -49,12 +37,20 @@ file = "kubejs/server_scripts/ban.js"
 hash = "797626fe713ae323f08d636c1302b0235d7191465750142dcd92e63659d3ac52"
 
 [[files]]
+file = "kubejs/server_scripts/loot.js"
+hash = "699ef346ae173186192c27b0b371fde6a581d0362cac67f3661e4870852b162e"
+
+[[files]]
 file = "kubejs/server_scripts/ore.js"
 hash = "1520f4068c1a4ecf6777ffa2be610f82fc5b3c50d58e3a06d4bb3d7921d91bb4"
 
 [[files]]
+file = "kubejs/server_scripts/recipe.js"
+hash = "432292c99909c77d3d90aa761eef10e7bce57182c4774733671fa6e00953f284"
+
+[[files]]
 file = "kubejs/startup_scripts/global.js"
-hash = "48ec41f15c64b36c4c00135470ecb0c88561ad5a7eba9dd0488f17395261410f"
+hash = "83ff4c3730920724d0865744d9a6f8645c421e838c082609d2a3e6728f9008ff"
 
 [[files]]
 file = "mods/ae2.pw.toml"
