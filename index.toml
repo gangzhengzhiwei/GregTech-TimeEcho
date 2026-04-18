@@ -6,7 +6,23 @@ hash = "6852c5660e8b1091694e5350f2cbb7fff8f0e067d5fb1581982d5c78f90a655c"
 
 [[files]]
 file = "README.md"
-hash = "4ca712e66b42ed47199ce25a476796f24ad895d6a2e1eec78735e006ccda9df9"
+hash = "a9abb8228d5deb5626f70191cf3cad9186ec8016a418a38fa2a059a5eed8a0fd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
+
+[[files]]
+file = "kubejs/client_scripts/ban.js"
+hash = "77ae473f2f3e2cf1bd566ea4fca4d9eef5643ce6d9ac59021b487dc73ddfa066"
+
+[[files]]
+file = "kubejs/server_scripts/ban.js"
+hash = "797626fe713ae323f08d636c1302b0235d7191465750142dcd92e63659d3ac52"
+
+[[files]]
+file = "kubejs/startup_scripts/global.js"
+hash = "48ec41f15c64b36c4c00135470ecb0c88561ad5a7eba9dd0488f17395261410f"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -30,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
 metafile = true
 
 [[files]]
@@ -66,6 +87,16 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "2e42b3a809ec9b027e23714e01c255fe5111a9d4cd58fad114dd0f2aa75c0d7e"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "db5b0e49607113eb8740838753460e6d2f8c718828fcc52b9fefd13adc4e4cae"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
 metafile = true
 
 [[files]]
