@@ -745,24 +745,6 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"&atest&r"
-				"&btest&r"
-				"&ctest&r"
-				"&dtest&r"
-				"&etest&r"
-				"&ftest&r"
-			]
-			id: "782BC10057E0A82C"
-			tasks: [{
-				id: "2903599A07776EE9"
-				title: "test"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 5.5d
-		}
-		{
 			dependencies: ["1DB3E9133DD1D7EE"]
 			icon: "minecraft:blaze_powder"
 			id: "38D2A6A92E38F83E"
