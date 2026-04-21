@@ -18,7 +18,7 @@ hash = "41bec9202c00189b3f193d6c946d0bf1c1688959abfc66bc6db24bc18dbffa97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "2c2b063da04a48c5dc5a7bd07430dd76dcf4c5528f25485738356060605d1223"
+hash = "5c8857d0240e911d178ce8ab93f5c0e2d7a844742174ffa8843c334da8e92d3d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -42,7 +42,7 @@ hash = "699ef346ae173186192c27b0b371fde6a581d0362cac67f3661e4870852b162e"
 
 [[files]]
 file = "kubejs/server_scripts/ore.js"
-hash = "1520f4068c1a4ecf6777ffa2be610f82fc5b3c50d58e3a06d4bb3d7921d91bb4"
+hash = "e4b28e15169cc395ee42c7e0a6fe286528c3b03fb7258c4a12a6b24b2c25491f"
 
 [[files]]
 file = "kubejs/server_scripts/recipe.js"

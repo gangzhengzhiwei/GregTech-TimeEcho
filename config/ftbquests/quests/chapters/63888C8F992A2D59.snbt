@@ -242,7 +242,7 @@
 		}
 		{
 			dependencies: ["035B5156551B5BCE"]
-			description: ["如果你想玩爽包，跳过大前期的资源收集阶段，请点这里。"]
+			description: ["如果你想玩爽包，快速跳过大前期的资源收集阶段，请点这里。"]
 			id: "66D5A56FA758D727"
 			subtitle: "或许你该试试GTE和GTL"
 			tasks: [{
@@ -470,6 +470,60 @@
 			title: "提示"
 			x: -3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1E28AA197F8D9193"
+				"2D72B62DD0FA6C44"
+			]
+			id: "6F8F318795707647"
+			tasks: [{
+				count: 8L
+				id: "5F0072FB81A6E45E"
+				item: { Count: 2, id: "gtceu:tin_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E28AA197F8D9193"]
+			description: [
+				"锡矿石一共有三种，分别为&b锡矿&r，&b锡石&r和&b锡石矿砂&r。"
+				"这三种矿石在现阶段都可以处理。"
+				"&e注意的是，锡矿为单质矿，可以在矿窑内1:1出锡锭。&r"
+				"&e锡石和锡石矿砂化学式SnO2，因此一个矿石只能出3个锡粒。&r"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:raw_tin"
+			id: "2D72B62DD0FA6C44"
+			tasks: [{
+				id: "09CF4F118984415F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:raw_tin"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_cassiterite_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_cassiterite"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "锡矿石"
+			x: 12.0d
+			y: -6.0d
 		}
 	]
 	title: "开荒"
