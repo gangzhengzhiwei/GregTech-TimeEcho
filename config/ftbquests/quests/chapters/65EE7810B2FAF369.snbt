@@ -1,0 +1,810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65EE7810B2FAF369"
+	group: ""
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "65EE7810B2FAF369"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/mysterious_cube_end_emissive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/multiblock/bedrock_ore_miner/overlay_front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:block/casings/pipe/machine_casing_extreme_engine_intake_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3A940F7A77D5CEA7"
+			tasks: [{
+				id: "6CAD104BCC6ACEE9"
+				title: "lv"
+				type: "checkmark"
+			}]
+			title: "LV"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "76379A5BE439C64A"
+			tasks: [{
+				id: "4ECE8495736B5D68"
+				title: "MV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "019CCB83123CCEF7"
+			tasks: [{
+				id: "010FA43D54D4520B"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "2A08C6E0DA210BEC"
+			tasks: [{
+				id: "782C76E14B06BF3D"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0A6EF2E345CBB210"
+			tasks: [{
+				id: "7F8F0DD12C9CBECA"
+				title: "IV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "769BBF67CE8D46F3"
+			tasks: [{
+				id: "274B2BB762BA271A"
+				title: "LuV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "65ACB87E0C135FF1"
+			tasks: [{
+				id: "54E7CB1155A9BBE1"
+				title: "ZPM"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "386D087360A28E3E"
+			tasks: [{
+				id: "785DB458DEDA506A"
+				title: "UV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "5FC1FFF383512100"
+			tasks: [{
+				id: "2B6DDE2F347663C7"
+				title: "UHV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["56AAE9BC05AC1A97"]
+			id: "24FF65BF79BC2846"
+			tasks: [{
+				id: "165FE1D6C52F8035"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24FF65BF79BC2846"]
+			id: "0452857251948DF3"
+			tasks: [{
+				id: "62CE0D16C083599A"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "554D73725119D5D5"
+			tasks: [{
+				id: "396BD1C56F637E25"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["554D73725119D5D5"]
+			id: "2E77D4F1F407B50A"
+			tasks: [{
+				id: "4C290FE196FC5883"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E77D4F1F407B50A"]
+			id: "794773814990BA09"
+			tasks: [{
+				id: "19569526927C8475"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "3442F3B227A4F04A"
+			tasks: [{
+				id: "2F17FEB6011E16B0"
+				title: "ULV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "55FD72AA1B2E6180"
+			tasks: [{
+				id: "096AAF5BFB5ACDB1"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55FD72AA1B2E6180"]
+			id: "6DE8E8ABFE4811B1"
+			tasks: [{
+				id: "7CD5715CD61BCE69"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DE8E8ABFE4811B1"]
+			id: "5BF4B1F576695D7F"
+			tasks: [{
+				id: "0236191DC885314A"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BF4B1F576695D7F"]
+			id: "14A2AC87A2448E02"
+			tasks: [{
+				id: "57CFD570D79AC1F9"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14A2AC87A2448E02"]
+			id: "400EB2B60B534077"
+			tasks: [{
+				id: "563E5B5537316E8F"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["400EB2B60B534077"]
+			id: "7FE7575D9B379AA7"
+			tasks: [{
+				id: "53CA0294734CB775"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "3464854DBCBACD18"
+			tasks: [{
+				id: "09BB10F0D9CA99AC"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3464854DBCBACD18"]
+			id: "3D9B385FD2920BF6"
+			tasks: [{
+				id: "2C68930679839ADC"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D9B385FD2920BF6"]
+			id: "4771D3AF509D5540"
+			tasks: [{
+				id: "547B9D5A96F50958"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4771D3AF509D5540"]
+			id: "0FFD1D5FC9DCC6B3"
+			tasks: [{
+				id: "6A6AFDC2FBC600B7"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "5E0E0955E9B1540A"
+			tasks: [{
+				id: "29439F9916DF32C6"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E0E0955E9B1540A"]
+			id: "21DAF5B7FC761E76"
+			tasks: [{
+				id: "02DC704CE781CBBF"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21DAF5B7FC761E76"]
+			id: "24472F26061587EF"
+			tasks: [{
+				id: "2BC5881E7D6BE5BA"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24472F26061587EF"]
+			id: "6DD260A0C1387697"
+			tasks: [{
+				id: "43FA9B27C60C3F63"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "0D10C4183BDFBBF4"
+			tasks: [{
+				id: "0B5CF6A170AE29EC"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D10C4183BDFBBF4"]
+			id: "68F888F08EEEDB20"
+			tasks: [{
+				id: "398671A14B5E1DBB"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68F888F08EEEDB20"]
+			id: "0A7CD20BE022B2A8"
+			tasks: [{
+				id: "1D63DE9CF3F4C98A"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A7CD20BE022B2A8"]
+			id: "0C4F5F2D8D5EBE29"
+			tasks: [{
+				id: "0BB6A5FC869030BD"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "484C3F5A2152BDF4"
+			tasks: [{
+				id: "15A8442FAC33544B"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["484C3F5A2152BDF4"]
+			id: "28AB5ABABDA54525"
+			tasks: [{
+				id: "31AC86955EF31F55"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28AB5ABABDA54525"]
+			id: "6259C93A560F6B0C"
+			tasks: [{
+				id: "6E3F294162FC0101"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6259C93A560F6B0C"]
+			id: "6373589F6661594B"
+			subtitle: "&c千载独步，唯公一人&r"
+			tasks: [{
+				id: "5245D6456D4F92B5"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			icon: "create:precision_mechanism"
+			id: "56AAE9BC05AC1A97"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "4AF266CF7007CC0D"
+				title: "一切的开始"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FF0CBAD58919538"]
+			id: "0FC17D37A7F8871E"
+			tasks: [{
+				id: "4F8EFA894E9AC712"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FC17D37A7F8871E"]
+			id: "506840C915268421"
+			tasks: [{
+				id: "522C0D4FDF473873"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["506840C915268421"]
+			id: "0F938883C70FC5CA"
+			tasks: [{
+				id: "1A31FDE4AF19472F"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F938883C70FC5CA"]
+			id: "707BE3E15F9D3056"
+			tasks: [{
+				id: "302ACD0B5BC8DDBE"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707BE3E15F9D3056"]
+			id: "2BD998F860989C0C"
+			tasks: [{
+				id: "41C5DBECFFA48F1E"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BD998F860989C0C"]
+			id: "3CBE2414B15E8A9C"
+			tasks: [{
+				id: "1E0D90D6F689ABEA"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CBE2414B15E8A9C"]
+			id: "69D6C1ECD83F27E5"
+			tasks: [{
+				id: "1C8294EAB116ADAC"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69D6C1ECD83F27E5"]
+			id: "74AB29A5558CE838"
+			tasks: [{
+				id: "3CFBB9E8E997B369"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:electric_blast_furnace"
+			id: "7FF0CBAD58919538"
+			shape: "gear"
+			tasks: [{
+				id: "6ADD654C2090576A"
+				title: "高炉线圈"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:energy_detector_cover"
+			id: "1DB3E9133DD1D7EE"
+			shape: "gear"
+			tasks: [{
+				id: "4CB98422CD5B33F7"
+				title: "发电方式选择？"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "6672BE29EDFA2D19"
+			tasks: [{
+				id: "5C6E90E462C0441A"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "519D90516342B36F"
+			tasks: [{
+				id: "5141896CBD670176"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "1BA71CD84F47F336"
+			tasks: [{
+				id: "3F67277264635771"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "185B9E2FAA11DE90"
+			tasks: [{
+				id: "5AB37AABAC042F21"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "34CDD3320F0A23DF"
+			tasks: [{
+				id: "25FF1FFF7BCEB3A8"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "2A3265DC1AF59240"
+			tasks: [{
+				id: "57785E115D2A97F6"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "2D80A1D58D4EF3F8"
+			tasks: [{
+				id: "7CE41F9017312A8A"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "090F907F21E9AF1C"
+			tasks: [{
+				id: "39DCE06D103613A5"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "539EC3AA4EDA64FC"
+			tasks: [{
+				id: "50DB2ADFF72FCE3E"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "225B51F0A35433ED"
+			tasks: [{
+				id: "354F9FADA35637C1"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "15467BA34989E58F"
+			tasks: [{
+				id: "31F84832EB481D7C"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "56FDDCFED62D75D9"
+			tasks: [{
+				id: "0865E3784626C0B3"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "73CF4ECCCE5FF0E7"
+			tasks: [{
+				id: "0C6DF2C0E835F593"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "121CDB96A31BA5EA"
+			tasks: [{
+				id: "1697310DA1783ABF"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DB3E9133DD1D7EE"]
+			icon: "gtceu:steam_bucket"
+			id: "262DE73BF29232C4"
+			subtitle: "&a应该不会有人靠堆叠太阳能产蒸汽吧...&r"
+			tasks: [{
+				id: "0DE9FE41B00948A2"
+				title: "蒸汽"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DB3E9133DD1D7EE"]
+			icon: "gtceu:natural_gas_bucket"
+			id: "21AF898C464D04FD"
+			subtitle: "&a听说过大苯环神教的威名吗&r"
+			tasks: [{
+				id: "7B114AA65ECD4F0B"
+				title: "燃气"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DB3E9133DD1D7EE"]
+			icon: "gtceu:diesel_bucket"
+			id: "55263F771BC08DA3"
+			subtitle: "&aWhere?&r"
+			tasks: [{
+				id: "3EE1AA6A6B0F6B11"
+				title: "燃油"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DB3E9133DD1D7EE"]
+			icon: "gtceu:helium_plasma_bucket"
+			id: "3D3AEF4A465FB997"
+			subtitle: "&a另类太阳能...&r"
+			tasks: [{
+				id: "1EB78C5B428858F5"
+				title: "等离子"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&atest&r"
+				"&btest&r"
+				"&ctest&r"
+				"&dtest&r"
+				"&etest&r"
+				"&ftest&r"
+			]
+			id: "782BC10057E0A82C"
+			tasks: [{
+				id: "2903599A07776EE9"
+				title: "test"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1DB3E9133DD1D7EE"]
+			icon: "minecraft:blaze_powder"
+			id: "38D2A6A92E38F83E"
+			subtitle: "&c你真的要靠这个发电?&r"
+			tasks: [{
+				id: "56453D4F14E8F8EB"
+				title: "太阳能"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "6A16BE8F9A088AE3"
+			tasks: [{
+				id: "6872FB9E4D8083CC"
+				item: "gtceu:solar_panel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "607C70ACE423AADE"
+			tasks: [{
+				id: "2447662D96B6ED0D"
+				item: "gtceu:ulv_solar_panel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "12F541FA23B22344"
+			tasks: [{
+				id: "593DE2FBCB26A74A"
+				item: "gtceu:lv_solar_panel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+	title: "晋升之路"
+}
