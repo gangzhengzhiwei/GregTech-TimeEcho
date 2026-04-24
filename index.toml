@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "a0ee746064b06d09cab0768116ec265fd0d45261d4087c9ad2c698a07c7aac0e"
+hash = "6852c5660e8b1091694e5350f2cbb7fff8f0e067d5fb1581982d5c78f90a655c"
 
 [[files]]
 file = "README.md"
@@ -18,7 +18,7 @@ hash = "41bec9202c00189b3f193d6c946d0bf1c1688959abfc66bc6db24bc18dbffa97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "5c8857d0240e911d178ce8ab93f5c0e2d7a844742174ffa8843c334da8e92d3d"
+hash = "b6273cb646ba4b7445887e2a9c561e18554a7fd475add0b4f0816e55966a96cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/65EE7810B2FAF369.snbt"
@@ -30,7 +30,7 @@ hash = "ed7875116d2c86b1e8c58e9a714c1566043be46ff1c927f8ab31b2a806c50acc"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "369f83e3de4a8244cfe5e2002c39253c46bb093c61b25b56a5d924898615904f"
+hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
 
 [[files]]
 file = "kubejs/client_scripts/ban.js"
@@ -43,6 +43,10 @@ hash = "797626fe713ae323f08d636c1302b0235d7191465750142dcd92e63659d3ac52"
 [[files]]
 file = "kubejs/server_scripts/loot.js"
 hash = "699ef346ae173186192c27b0b371fde6a581d0362cac67f3661e4870852b162e"
+
+[[files]]
+file = "kubejs/server_scripts/material.js"
+hash = "64633eb07d2551afcd87818a0c0b6084eee2f589491610c8b2f12b6fdb49c0c9"
 
 [[files]]
 file = "kubejs/server_scripts/ore.js"
@@ -58,12 +62,12 @@ hash = "83ff4c3730920724d0865744d9a6f8645c421e838c082609d2a3e6728f9008ff"
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "5783e13e88cb69f19d36c9c8073e1a25ba1ba0cd96d7963398615384400e574a"
+hash = "74bbdad7434bc02ec767c15c0136269f885331601f73fa2365252c24e58c09bd"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "da11742acdabd86fc663fecce6c8f99482208dca5f16e558e3801d96624aea1e"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
 
 [[files]]
@@ -72,22 +76,22 @@ hash = "0aab6029bc5299d09c2a4d51add7df55f8213021ac190b61594d8c02d849d0ca"
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "e408c93a8ce2b0cc8ecb1b9b8ae6dc5e51075f27a6ad06958551ee3a6edc750b"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "9ddb37809dbf50f17ccfca4039149524ec0ed8f5838441a94fbb1de3a780c9b5"
+hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "8945e0c092860c9b542898d111c659faa5fefbe0b29b00b2fd45ac9b945c07a4"
+hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "3b026ffc2963974cc8252d83e91587b5ac357ab2b59eb1e77e74e82eb3d635d6"
+hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
@@ -116,17 +120,17 @@ hash = "19cea280a56e533b9669d4f866aef38ebe54f6d8627efe6798016e17b6b4afda"
 
 [[files]]
 file = "mods/greate.pw.toml"
-hash = "62a66c9f37c5953c7a4b9ab081378f364b0e9e5801fc96ff8dd8c43dfd6f347c"
+hash = "ef9d72304d5d61e3312cc81d4cd83f212c80de17d2852a4c53bca2ed24390502"
 metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "21cf5e8d7211dc8d8df3e3814e025e7d59fe04156ad0883e0e7fed56e4597017"
+hash = "985697bebbb8874f9b2f12f4caca721e2cf28d42dc084e894f40f045d4c21fe5"
 metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "f2b3ab36b8c74cd6a0085061a37df99b32a77e4781f87dba58e0e954098db63d"
+hash = "2e42b3a809ec9b027e23714e01c255fe5111a9d4cd58fad114dd0f2aa75c0d7e"
 metafile = true
 
 [[files]]
@@ -135,57 +139,61 @@ hash = "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49"
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "67cf22648f30321ffa092e94c42fe60949d03586c5763e092661cafb9a9cf32d"
+hash = "db5b0e49607113eb8740838753460e6d2f8c718828fcc52b9fefd13adc4e4cae"
 metafile = true
 
 [[files]]
 file = "mods/kubejs-create.pw.toml"
-hash = "af8ccd16ab2e87032a68a30cbcf6c684414e1cc1295e62bb7fffca29e0f1ed46"
+hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "c029203eb50554be89525f7923a744b8a4395255e556059603db65a42778ec2d"
+hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "d26fb5e71540ad515dcce3b4f3ea7906e50ac6065aa1b6a0be3ab13da790d82b"
+hash = "713685d5c4c72d8bd46e314ea164b9f9a6a368dedf71398b2246142e2ed66c1f"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "77fa53a8466d39da52d38565818ead2df35fdc358a2af8d83e041b7863d87deb"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "919300e0236bdad52e6951ab20a6d2b529af3614d9ccfe491c2b44dfe39f6daf"
+hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "9d87b2cfc09b741db58f768b91c52aab3281a5e4d520a2952c2b19d577fe7896"
+hash = "a6d572b0365f9f0a6c044066e3e222cb088ef148f08c05e6638819e391a40920"
 metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "3426d4f4061466c7379b0f7f76a2bb2a582ce8362e07ea9412b9a69bb9e0c339"
+hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
 metafile = true
 
 [[files]]
 file = "mods/the-one-probe.pw.toml"
-hash = "02e235bea13cad3910e6b5f981a7c2ed2209a6141ffde13d212246cba8058d2d"
+hash = "6f61f95a26011b08a22c9b5efa41ce8508a3843e7edeb78769debb35a01a4809"
 metafile = true
 
 [[files]]
+file = "mods/vintageimprovements-1.20.1-0.3.1.0.jar"
+hash = "9662ece0564373128cc29de5e09feb4e13237a004b136b023bfb5c817b9d3097"
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "0e371465f3f4c23d9efaf7a0394e78c2b0a883fb8e49158543062bcddee96a66"
+hash = "0f4c36a62455f7a78f36b8768f2fd980e558d9a18552c6ee00e9d090b51de341"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "216d3b500704a125ac22b2e13e2388f991cbc21a07693f0dfc447b6e1e21ee34"
+hash = "ceef63cdf36c1e23cc00a78aa9b81a13a34fc02cea9ccdf2ec35d0558cff72e5"
 metafile = true
 
 [[files]]
