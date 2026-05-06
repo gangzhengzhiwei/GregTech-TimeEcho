@@ -18,7 +18,7 @@ hash = "41bec9202c00189b3f193d6c946d0bf1c1688959abfc66bc6db24bc18dbffa97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "b6273cb646ba4b7445887e2a9c561e18554a7fd475add0b4f0816e55966a96cf"
+hash = "a888315daab79928eb1afdf6e4d47d1916acad877ca9c2310c970aebc423789b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/65EE7810B2FAF369.snbt"
@@ -50,11 +50,11 @@ hash = "64633eb07d2551afcd87818a0c0b6084eee2f589491610c8b2f12b6fdb49c0c9"
 
 [[files]]
 file = "kubejs/server_scripts/ore.js"
-hash = "e4b28e15169cc395ee42c7e0a6fe286528c3b03fb7258c4a12a6b24b2c25491f"
+hash = "606ee9a1b9aeb03a3cff4cadd0249a8fef3c18f782b6df6c5cbab703c2962da0"
 
 [[files]]
 file = "kubejs/server_scripts/recipe.js"
-hash = "432292c99909c77d3d90aa761eef10e7bce57182c4774733671fa6e00953f284"
+hash = "4ec814df11d44d230f5c11fbae9f7b28521fca5f9071e42a267e73b16903d8f0"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
@@ -67,12 +67,13 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
-file = "mods/charcoal_pit-1.20.1-3.12.0.jar"
-hash = "0aab6029bc5299d09c2a4d51add7df55f8213021ac190b61594d8c02d849d0ca"
+file = "mods/charcoal-pit-reloaded.pw.toml"
+hash = "c12292a2673ac279ac442bc3f6e2e0158531383175111f4e25d56f04caf5f995"
+metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
@@ -95,28 +96,34 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
-file = "mods/ftb-chunks-forge-2001.3.7.jar"
-hash = "63515959a2413ad20320f04cdc780148fed7ce97dc7ec271e2cf03f9c88d2323"
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
 
 [[files]]
-file = "mods/ftb-library-forge-2001.2.12.jar"
-hash = "f09335944fff8ca3ef37a40e0b125ffb6707759ede258c73f9ce9bac61bfbf96"
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "6c6893267694003c8fc8a2c1a89e961d28add27991a26b60abedda1eafb0eb57"
+metafile = true
 
 [[files]]
-file = "mods/ftb-quests-forge-2001.4.21.jar"
-hash = "b85384ac0435802f8a0afafcb62b37def97965fe3457e9e10ee6ec45e5896436"
+file = "mods/ftb-library-forge.pw.toml"
+hash = "9db3089b9504be94818135f452daa1f2abbcb478d31abba2b19833902ea5daa5"
+metafile = true
 
 [[files]]
-file = "mods/ftb-teams-forge-2001.3.2.jar"
-hash = "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "99c44324eac89306a4ada0f32d1635003bf67b7ac0b13ceca9a71d5d92bddf78"
+metafile = true
 
 [[files]]
-file = "mods/ftb-xmod-compat-forge-2.1.3.jar"
-hash = "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72"
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
+metafile = true
 
 [[files]]
-file = "mods/ftbbackups2-forge-1.20-1.0.23.jar"
-hash = "19cea280a56e533b9669d4f866aef38ebe54f6d8627efe6798016e17b6b4afda"
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
+metafile = true
 
 [[files]]
 file = "mods/greate.pw.toml"
@@ -134,8 +141,9 @@ hash = "2e42b3a809ec9b027e23714e01c255fe5111a9d4cd58fad114dd0f2aa75c0d7e"
 metafile = true
 
 [[files]]
-file = "mods/item-filters-forge-2001.1.0-build.59.jar"
-hash = "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49"
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
+metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
@@ -169,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "a6d572b0365f9f0a6c044066e3e222cb088ef148f08c05e6638819e391a40920"
+hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
 metafile = true
 
 [[files]]
@@ -181,10 +189,6 @@ metafile = true
 file = "mods/the-one-probe.pw.toml"
 hash = "6f61f95a26011b08a22c9b5efa41ce8508a3843e7edeb78769debb35a01a4809"
 metafile = true
-
-[[files]]
-file = "mods/vintageimprovements-1.20.1-0.3.1.0.jar"
-hash = "9662ece0564373128cc29de5e09feb4e13237a004b136b023bfb5c817b9d3097"
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"

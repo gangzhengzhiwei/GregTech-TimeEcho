@@ -12,6 +12,7 @@
 			description: [
 				"欢迎来到&b格雷科技：时空回想&r："
 				"这是一个致力于在&b格雷科技现代版&r中吃到&b格雷科技6&r的&4大粪&r的整合包。"
+				"本整合包推荐以和平模式游玩。"
 				"这一章节的任务会指引你进入青铜时代。"
 				"&4整合包目前在早期测试版本，我们欢迎您的建议和批评&r。"
 			]
@@ -77,6 +78,7 @@
 		{
 			dependencies: ["035B5156551B5BCE"]
 			description: [
+				"格雷科技的矿物按矿脉生成，其上方会生成地表指示物，右键它们会在小地图中显示。"
 				"原生铜是你现在唯一能处理的铜矿，推荐从黄铜矿脉中寻找。"
 				"与原版格雷科技现代版不同的是，这个整合包中的非单质矿均不能1:1转化成锭。"
 			]
@@ -86,7 +88,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -205,7 +207,7 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -228,8 +230,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -4.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1742A5AF898F0159"]
@@ -242,225 +244,6 @@
 			title: "陶窑的使用方式"
 			x: 7.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["035B5156551B5BCE"]
-			description: ["如果你想玩爽包，快速跳过大前期的资源收集阶段，请点这里。"]
-			id: "66D5A56FA758D727"
-			subtitle: "或许你该试试GTE和GTL"
-			tasks: [{
-				id: "10D4DADB6BC2B8F4"
-				type: "checkmark"
-			}]
-			title: "想玩爽包?"
-			x: -1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["66D5A56FA758D727"]
-			icon: "gtceu:prospector.luv"
-			id: "44229061FA55E852"
-			rewards: [{
-				id: "10F352D5EF0639FC"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.luv"
-					tag: {
-						Charge: 1000000000L
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "45450709D6205289"
-				type: "checkmark"
-			}]
-			title: "探矿仪"
-			x: 0.5d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["66D5A56FA758D727"]
-			icon: {
-				Count: 1
-				id: "gtceu:nightvision_goggles"
-				tag: { }
-			}
-			id: "3D1E6050EFBE82D5"
-			rewards: [{
-				command: "/effect give @s night_vision infinite"
-				id: "5537F753982E0D35"
-				type: "command"
-			}]
-			tasks: [{
-				id: "603394C749552E9A"
-				type: "checkmark"
-			}]
-			title: "无限夜视"
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["66D5A56FA758D727"]
-			icon: {
-				Count: 1
-				id: "gtceu:quarktech_helmet"
-				tag: {
-					Charge: 100000000L
-				}
-			}
-			id: "6FEC1AC7B4CE7FE9"
-			rewards: [
-				{
-					id: "3832135835866E17"
-					item: {
-						Count: 1
-						id: "gtceu:quarktech_helmet"
-						tag: {
-							Charge: 100000000L
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6EC4FBD3DBA3EBCC"
-					item: {
-						Count: 1
-						id: "gtceu:advanced_quarktech_chestplate"
-						tag: {
-							Charge: 1000000000L
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7C25ED39B8E5FF86"
-					item: {
-						Count: 1
-						id: "gtceu:quarktech_leggings"
-						tag: {
-							Charge: 100000000L
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "381368A0A89B1AC4"
-					item: {
-						Count: 1
-						id: "gtceu:quarktech_boots"
-						tag: {
-							Charge: 100000000L
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0A1F8F61EF57EB74"
-				type: "checkmark"
-			}]
-			title: "吊炸天飞行套装"
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["66D5A56FA758D727"]
-			icon: {
-				Count: 1
-				id: "gtceu:neutronium_mining_hammer"
-				tag: {
-					Damage: 0
-					DisallowContainerItem: 0b
-					GT.Behaviours: {
-						AoEColumn: 1
-						AoELayer: 0
-						AoERow: 1
-						MaxAoEColumn: 1
-						MaxAoELayer: 0
-						MaxAoERow: 1
-						RelocateMinedBlocks: 1b
-						RelocateMobDrops: 1b
-						TorchPlacing: 1b
-					}
-					GT.Tool: {
-						DefaultEnchantments: [ ]
-						HarvestLevel: 6
-						MaxDamage: 196604
-						ToolSpeed: 76.0f
-					}
-					HideFlags: 2
-					Unbreakable: 1b
-				}
-			}
-			id: "1D50346F8FED91CF"
-			rewards: [
-				{
-					id: "495B0AB066A61466"
-					item: {
-						Count: 1
-						id: "gtceu:neutronium_mining_hammer"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								AoEColumn: 1
-								AoELayer: 0
-								AoERow: 1
-								MaxAoEColumn: 1
-								MaxAoELayer: 0
-								MaxAoERow: 1
-								RelocateMinedBlocks: 1b
-								RelocateMobDrops: 1b
-								TorchPlacing: 1b
-							}
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 6
-								MaxDamage: 196604
-								ToolSpeed: 76.0f
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3212650683AA078C"
-					item: {
-						Count: 1
-						id: "gtceu:neutronium_axe"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								DisableShields: 1b
-								RelocateMinedBlocks: 1b
-								RelocateMobDrops: 1b
-								TreeFelling: 1b
-							}
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 6
-								MaxDamage: 65534
-								ToolSpeed: 182.0f
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4B5C90188C40D424"
-				title: "采矿锤"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 6.5d
 		}
 		{
 			dependencies: ["035B5156551B5BCE"]
@@ -486,8 +269,8 @@
 				item: { Count: 2, id: "gtceu:tin_ingot" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E28AA197F8D9193"]
@@ -525,21 +308,218 @@
 				type: "item"
 			}]
 			title: "锡矿石"
-			x: 12.0d
-			y: -6.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6F8F318795707647"]
 			description: ["在黏土罐内以3:1的比例放入铜锭和锡锭，矿窑烧制得到青铜锭。"]
 			id: "210F9391BC2D4F9D"
+			rewards: [{
+				id: "3018CCFCB4987EAC"
+				item: {
+					Count: 1
+					id: "gtceu:hsse_mining_hammer"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							HarvestLevel: 4
+							MaxDamage: 9215
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "00C49618E63E329B"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -4.0d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["210F9391BC2D4F9D"]
+			description: [
+				"扳手：拆/调整机器和管道，参与合成"
+				"锉刀：合成杆"
+				"锤子：主要用来合成板"
+				"&e锉刀和锤子对材料的利用率只有一半，因此在有更好选择时应毫不犹豫替代掉。&r"
+			]
+			id: "3DB9C42986DCB059"
+			tasks: [
+				{
+					id: "32A5C5E078EC3EAF"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF5661B807B1004"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0748914EF970BEF8"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "更多GT工具"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DB9C42986DCB059"]
+			description: [
+				"搭建以下结构："
+				"第一层：AAA 第二层：ASA 第三层：ABA"
+				"         AXA          BAB          BAB"
+				"         AAA          ABA          ABA"
+				"X：熟铁吹炼炉主方块， B：砂质砖块，S：砂质砖鼓风口，A：空气"
+				"之后放置风箱，风箱要对着鼓风口。"
+				"将铁矿石shift+右键结构中间可放置吹炼炉矿石块，点燃后右键风箱鼓风，火灭后用镐子趁热挖掘数次即可获得锻铁。"
+				"若鼓风不足或未能及时趁热挖掘则会得到失败的或冷却的铁方坯，需要回炉。"
+			]
+			icon: "charcoal_pit:main_bloomery"
+			id: "0FFAB0A5E757F16C"
+			tasks: [
+				{
+					id: "0FDC1BBDCE225BBB"
+					item: "charcoal_pit:main_bloomery"
+					type: "item"
+				}
+				{
+					id: "0170E971A742B25C"
+					item: "charcoal_pit:bellows"
+					type: "item"
+				}
+				{
+					id: "1C540E60CD4EB432"
+					item: "charcoal_pit:sandy_tuyere"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "696BCB3A9239E39E"
+					item: { Count: 7, id: "charcoal_pit:sandy_brick" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FFAB0A5E757F16C"]
+			id: "6E957443E5FBC0C1"
+			tasks: [{
+				count: 8L
+				id: "0D5AA5668C08D168"
+				item: { Count: 8, id: "gtceu:wrought_iron_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E957443E5FBC0C1"]
+			description: [
+				"由于未知的原因，熟铁吹炼炉只能处理原版单质铁矿。"
+				"推荐在黄铜矿中寻找。"
+			]
+			id: "6FAF509432A65AB3"
+			rewards: [{
+				count: 16
+				id: "5B088924D4CF2500"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "25D47289F8E0C3BB"
+				item: { Count: 8, id: "gtceu:wrought_iron_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FAF509432A65AB3"]
+			description: [
+				"原本的铁，锻铁和钢简直是一本糊涂账。"
+				"在本整合包中做如下修改："
+				"锻铁：由海绵铁锻打而来，高炉技术不够的产物，内含有炉渣，不参与化工。"
+				"钢：性能优异的铁合金，锻铁的上位替代，不参与化工。"
+				"铁：纯铁，不能做机器，只能参与化工。"
+			]
+			id: "6FE8C5393B82DCAF"
+			tasks: [{
+				id: "7EBE706E6E956009"
+				type: "checkmark"
+			}]
+			title: "铁，锻铁还是钢？"
+			x: 2.0d
+			y: 3.5d
 		}
 	]
 	title: "开荒"
