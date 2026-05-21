@@ -72,8 +72,8 @@
 				item: "charcoal_pit:ceramic_pot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.0d
+			x: 5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["035B5156551B5BCE"]
@@ -254,7 +254,7 @@
 				type: "checkmark"
 			}]
 			title: "提示"
-			x: -3.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -469,21 +469,12 @@
 		}
 		{
 			dependencies: ["0FFAB0A5E757F16C"]
-			id: "6E957443E5FBC0C1"
-			tasks: [{
-				count: 8L
-				id: "0D5AA5668C08D168"
-				item: { Count: 8, id: "gtceu:wrought_iron_ingot" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6E957443E5FBC0C1"]
 			description: [
-				"由于未知的原因，熟铁吹炼炉只能处理原版单质铁矿。"
-				"推荐在黄铜矿中寻找。"
+				"铁矿一共有以下几种："
+				"&b原版铁矿，赤铁矿，磁铁矿，褐铁矿，针铁矿，黄铁矿&r"
+				"其中只有原版铁矿为单质矿。"
+				"只有原版铁矿，赤铁矿，磁铁矿在合成为压缩铁矿后进一步处理。"
+				"褐铁矿，针铁矿和黄铁矿现阶段无法处理。"
 			]
 			id: "6FAF509432A65AB3"
 			rewards: [{
@@ -500,7 +491,7 @@
 				item: { Count: 8, id: "gtceu:wrought_iron_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -519,7 +510,7 @@
 			}]
 			title: "铁，锻铁还是钢？"
 			x: 2.0d
-			y: 3.5d
+			y: 1.0d
 		}
 	]
 	title: "开荒"

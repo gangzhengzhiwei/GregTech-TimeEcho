@@ -18,7 +18,7 @@ hash = "41bec9202c00189b3f193d6c946d0bf1c1688959abfc66bc6db24bc18dbffa97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/63888C8F992A2D59.snbt"
-hash = "a888315daab79928eb1afdf6e4d47d1916acad877ca9c2310c970aebc423789b"
+hash = "acafe82696c87219808fc711b94754fe2b39bdfffc3a98eb169054f9e81279bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/65EE7810B2FAF369.snbt"
@@ -46,19 +46,23 @@ hash = "699ef346ae173186192c27b0b371fde6a581d0362cac67f3661e4870852b162e"
 
 [[files]]
 file = "kubejs/server_scripts/material.js"
-hash = "64633eb07d2551afcd87818a0c0b6084eee2f589491610c8b2f12b6fdb49c0c9"
+hash = "1b1b172984066ce8840454e60bb6180d94d6c1e537569dfd5531b5d9f15edec8"
 
 [[files]]
 file = "kubejs/server_scripts/ore.js"
-hash = "606ee9a1b9aeb03a3cff4cadd0249a8fef3c18f782b6df6c5cbab703c2962da0"
+hash = "1cacc553998fa56c1875520e89154fc4a69e022109c668276af4fb13fcfda268"
 
 [[files]]
 file = "kubejs/server_scripts/recipe.js"
-hash = "4ec814df11d44d230f5c11fbae9f7b28521fca5f9071e42a267e73b16903d8f0"
+hash = "39c1c5def1ab58f94c71302b9d1d90920ecd785adfa26de17063826ca633821e"
 
 [[files]]
 file = "kubejs/startup_scripts/global.js"
 hash = "83ff4c3730920724d0865744d9a6f8645c421e838c082609d2a3e6728f9008ff"
+
+[[files]]
+file = "kubejs/startup_scripts/item.js"
+hash = "40e95f3afb989e04ef2cb4c7524bbf856ab13203616c112a7dc817cef9684337"
 
 [[files]]
 file = "mods/ae2.pw.toml"

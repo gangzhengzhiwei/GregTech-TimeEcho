@@ -1,5 +1,4 @@
 ServerEvents.recipes(event=>{
-    event.remove([{type:'gtceu:alloy_smelter'}, {type:'gtceu:alloy_blast_smelter'}, {type:'gtceu:arc_furnace'}, {type:'gtceu:extractor'}, {type:'gtceu:electric_blast_furnace'}])
 
     event.remove({type:'crafting_shapeless', output:'charcoal_pit:unfired_sandy_brick'})
     event.shapeless('4x charcoal_pit:unfired_sandy_brick', [
