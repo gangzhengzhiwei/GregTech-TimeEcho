@@ -80,11 +80,6 @@ hash = "c12292a2673ac279ac442bc3f6e2e0158531383175111f4e25d56f04caf5f995"
 metafile = true
 
 [[files]]
-file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
-metafile = true
-
-[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
@@ -130,11 +125,6 @@ hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
-file = "mods/greate.pw.toml"
-hash = "ef9d72304d5d61e3312cc81d4cd83f212c80de17d2852a4c53bca2ed24390502"
-metafile = true
-
-[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
 hash = "985697bebbb8874f9b2f12f4caca721e2cf28d42dc084e894f40f045d4c21fe5"
 metafile = true
@@ -152,11 +142,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "db5b0e49607113eb8740838753460e6d2f8c718828fcc52b9fefd13adc4e4cae"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-create.pw.toml"
-hash = "e9ea701c9fc9bb54d1bd3b6998403a229f896449c0d15b5df23dc46e20ac5092"
 metafile = true
 
 [[files]]
