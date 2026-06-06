@@ -1,8 +1,4 @@
 ServerEvents.recipes(event => {
-     event.remove({ type: 'minecraft:smelting', output: '#forge:dusts' })
-     event.remove({ type: 'minecraft:smelting', output: '#forge:ingots' })
-     event.remove({ type: 'minecraft:smelting', input: '#forge:ores' })
-     event.remove({ type: 'minecraft:blasting' })
      event.remove({ type: 'charcoal_pit:orekiln' })
      event.remove({ type: 'charcoal_pit:bloomery' })
 

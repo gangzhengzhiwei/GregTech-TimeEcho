@@ -33,16 +33,48 @@ file = "config/xaero/minimap/profiles/default.cfg"
 hash = "22dd7f25bd75f24f54080249a7ecb52668fa62af4733a788d2ec747c7474a9d0"
 
 [[files]]
-file = "kubejs/client_scripts/ban.js"
-hash = "77ae473f2f3e2cf1bd566ea4fca4d9eef5643ce6d9ac59021b487dc73ddfa066"
+file = "kubejs/assets/gtceu/textures/block/machines/steam_bender/overlay_front.png"
+hash = "d6645d64818cbc454441a6a04db19488a0df55c66d3d062a920a7752ea976203"
 
 [[files]]
-file = "kubejs/server_scripts/ban.js"
-hash = "797626fe713ae323f08d636c1302b0235d7191465750142dcd92e63659d3ac52"
+file = "kubejs/assets/gtceu/textures/block/machines/steam_bender/overlay_front_active.png"
+hash = "ebad1dfae805e8f4a778697cd1088830d089e77cef04088da65075040250a596"
 
 [[files]]
-file = "kubejs/server_scripts/loot.js"
-hash = "699ef346ae173186192c27b0b371fde6a581d0362cac67f3661e4870852b162e"
+file = "kubejs/assets/gtceu/textures/block/machines/steam_bender/overlay_front_active.png.mcmeta"
+hash = "afd89f10df4b025b0d1fd8414f91bde840fe9a618aece7c5085271333b3beab3"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_bender/overlay_front_active_emissive.png"
+hash = "174b6933a57231b138bbb28e09f51aa74756f22351b94891ca44838f1ed98354"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_bender/overlay_front_active_emissive.png.mcmeta"
+hash = "afd89f10df4b025b0d1fd8414f91bde840fe9a618aece7c5085271333b3beab3"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front.png"
+hash = "4fff8d95d2420a9f739c44be281016b196e909ea09fe224b874f0152d64b889d"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front_active.png"
+hash = "a0cba3ef70085fbe83c4f2c55c4406319a9f21d5005ee29bee836a53401d5b4e"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front_active.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front_active_emissive.png"
+hash = "5a2253f669274cf02496705f8d4db3f15c9bf0f9d63467d809465a6de54d904c"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front_active_emissive.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "kubejs/assets/gtte/textures/item/baked_iron_ore.png"
+hash = "db1075992130b91953cb1b8177f8be6496704f51b0211297d03005f9980b3307"
 
 [[files]]
 file = "kubejs/server_scripts/material.js"
@@ -50,15 +82,19 @@ hash = "1b1b172984066ce8840454e60bb6180d94d6c1e537569dfd5531b5d9f15edec8"
 
 [[files]]
 file = "kubejs/server_scripts/ore.js"
-hash = "1cacc553998fa56c1875520e89154fc4a69e022109c668276af4fb13fcfda268"
+hash = "710fbc202507f6bbb8ab0aee4ec333d6f1b6c077660b26c62f2eaec847f443a2"
 
 [[files]]
 file = "kubejs/server_scripts/recipe.js"
 hash = "39c1c5def1ab58f94c71302b9d1d90920ecd785adfa26de17063826ca633821e"
 
 [[files]]
-file = "kubejs/startup_scripts/global.js"
-hash = "83ff4c3730920724d0865744d9a6f8645c421e838c082609d2a3e6728f9008ff"
+file = "kubejs/server_scripts/vanilla.js"
+hash = "ce5702b651e4239acd58cf8ff4e25ebce8853c2d02b064cb8a49a207419ddd2d"
+
+[[files]]
+file = "kubejs/startup_scripts/gt_machine.js"
+hash = "b5f6908269d90af8b4c6ce3ac5b669b459cffe7415ad1205ddba5f9be66cd3f2"
 
 [[files]]
 file = "kubejs/startup_scripts/item.js"
@@ -86,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "f0b4372343e873512d57e5ee877f37362f8dde8e75771075abe44686509294b9"
+hash = "724ef5d1976e623bccf155159410708893b16fb1f35911ab7911ef6f047552ad"
 metafile = true
 
 [[files]]
@@ -111,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "99c44324eac89306a4ada0f32d1635003bf67b7ac0b13ceca9a71d5d92bddf78"
+hash = "7b2cc450f553b82439ae9422b8c2b4406dae1af3c48f7ce791a3576acff1d122"
 metafile = true
 
 [[files]]
@@ -146,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
+hash = "9ec37ad87c0c174bdafe7d52fc98f96b83aaef0ad42ae59e196655d3d784f31f"
 metafile = true
 
 [[files]]
@@ -181,12 +217,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "0f4c36a62455f7a78f36b8768f2fd980e558d9a18552c6ee00e9d090b51de341"
+hash = "38b987b54c0b5405a89465bf16613a283740650122ac373fc365cd13afe5eb69"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "ceef63cdf36c1e23cc00a78aa9b81a13a34fc02cea9ccdf2ec35d0558cff72e5"
+hash = "7bc86ce52ef42d948462c04658553448e5e909fb952f4b485e375d435c3ec751"
 metafile = true
 
 [[files]]
