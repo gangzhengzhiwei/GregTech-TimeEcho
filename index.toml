@@ -73,7 +73,7 @@ file = "kubejs/assets/gtceu/textures/block/machines/steam_lathe/overlay_front_ac
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
-file = "kubejs/assets/gtte/textures/item/baked_iron_ore.png"
+file = "kubejs/assets/gtte/textures/item/compress_iron_ore.png"
 hash = "db1075992130b91953cb1b8177f8be6496704f51b0211297d03005f9980b3307"
 
 [[files]]
